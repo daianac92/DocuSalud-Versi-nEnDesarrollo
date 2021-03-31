@@ -1,0 +1,70 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax.  -->
+<div class="page" data-name="addfd">
+    <div class="navbar">
+        <div class="navbar-inner sliding">
+        <div class="left">
+            <a href="#" class="link back">
+            <i class="iconoatras icon icon-back"></i>
+            <span class="ios-only">Back</span>
+            </a>
+        </div>
+        <div class="navbartitle title tnav ">DocuSalud</div>
+        </div>
+    </div>
+    <div class="page-content">
+    <div class="block-title centrado letras">AGREGAR DOCUMENTO O FACTURA</div>
+    <input id="archivofoto" type="file"></input>
+    
+    <div class="list">
+      <ul>
+        <li>
+            <h3>Tipo</h3>
+            <div class="item-inner"> 
+              <div class="item-input-wrap input-dropdown-wrap">
+                <select id="tipoarchivo" placeholder="Elige una opción">
+                <option value="fact">Factura</option>
+                  <option value="doc">Documento</option>
+                </select>
+              </div>
+            </div>
+        </li>
+
+        <li>
+            <h3>Paciente</h3>
+            <div class="item-inner">
+                <div id="addfdpaciente"> </div>
+            </div>
+        </li>
+
+        <li>
+            <h3>Fecha</h3>
+            <div class="item-inner"> 
+              <div class="item-input-wrap">
+                <input type="date" placeholder="Selecciona una fecha" id="fechaarchivo" />
+              </div>
+            </div>
+        </li>
+
+        <li>
+            <h3>Obra social</h3>
+            <div class="item-inner">
+            <div id="addfdobrasocial"> </div>
+            </div>
+         
+        </li>
+      </ul>
+
+      
+    </div>
+    <div class="block">
+        <div class="row">
+          <div id="divbtnguardar"class="col"><!--<a href="/vistagral/" id="volveraddfd" class="button button-fill button-small centrado">Volver</a>--></div>
+          <div id="divbtnvolver" class="col"><!--<a href="/viewp/" id="guardaraddfd" class="button button-fill button-small centrado">Guardar</a>--></div>
+        </div>
+      
+      
+    </div>
+  
+  
+    
+  </div>
